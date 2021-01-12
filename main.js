@@ -3,7 +3,7 @@
 
 $(document).ready(function(){
 
-    $('i').click(function(){
+    $('.header-right i, .close i').click(function(){
         $('.hamburger-menu').toggle();
     });
 
